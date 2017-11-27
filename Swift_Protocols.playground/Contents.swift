@@ -21,10 +21,14 @@ struct MyClass : MyProtocol{
     // Here is implementation of protocol function is type class(struct)
 
     func sayHello() -> String{
-    
+
+        print("Hello Sample")
+        
         return "Hello Roopesh"
         
     }
+
+
     
 }
 
